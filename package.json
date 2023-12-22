@@ -1,0 +1,34 @@
+{
+  "name": "peggy-string",
+  "version": "1.0.0",
+  "description": "Peggy grammar for parsing single and double quoted strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "peggy index.peggy",
+    "prepare": "npm run compile"
+  },
+  "files": [
+    "index.peggy",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frostburn/peggy-string.git"
+  },
+  "keywords": [
+    "Peggy",
+    "Grammar",
+    "String",
+    "Parsing"
+  ],
+  "author": "Lumi Pakkanen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frostburn/peggy-string/issues"
+  },
+  "homepage": "https://github.com/frostburn/peggy-string#readme",
+  "devDependencies": {
+    "peggy": "github:hildjj/peggy#multi-file"
+  }
+}
