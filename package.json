@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/frostburn/peggy-string#readme",
   "devDependencies": {
-    "peggy": "github:hildjj/peggy#multi-file"
+    "peggy": "github:hildjj/peggy#library-mode"
   }
 }
